@@ -7,8 +7,7 @@ body{
     font-weight: 700;
     font-style: normal;
 }
-
-/* primary color */
+/* primary css */
 .text-primary{
     color: #FD6E0A;
 }
@@ -21,12 +20,11 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
-/* Nav related styles */
+/* Nav related css */
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    justify-content: space-between;
 }
 .nav-title{
     color: #181818;
@@ -42,19 +40,6 @@ nav li{
     margin-right: 50px;
 }
 nav a{
-    text-decoration: none;
     color: #474747 ;
-} 
-
-/* header related style */
-.header{
-    background-color: #FFF8F3 ;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.prifile-pic{
-    width: 500px;
+    text-decoration: none;
 }
